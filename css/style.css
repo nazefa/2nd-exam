@@ -1,0 +1,187 @@
+/* Author
+
+Name: Nazefa Anjum;
+Email : nazefa0522@gmail.com;
+
+*/
+
+/*
+
+~~~~~Index~~~~~
+
+1. Header
+2. HOME
+3. HOW IT WORKS
+4. DISCOVER A PROJECT
+5. BLOG
+6. FIND OUT MORE
+7. Footer
+
+*/
+
+
+/*Global CSS*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700&display=swap');
+
+.img-center {
+	display: block;
+	margin: 0 auto;
+}
+
+/* ===Theme CSS=== */
+
+/* Header section starts */
+.navbar {
+    background-color: #fff!important;
+    padding: 25px 0px;
+}
+
+.nav-link {
+	color: #adadad!important;
+}
+/* Header section ends */
+
+
+/*Home section starts*/
+.hero {
+	background: url(../img/banner.png)no-repeat;
+	background-size: cover;
+}
+
+.hero h2 {
+	font-size: 50px;
+	text-align: center;
+	color: #161616;
+	padding-top: 100px;
+}
+
+.hero h3 {
+	font-size: 35px;
+	text-align: center;
+	color: #161616;
+	padding-top: 25px;
+}
+
+.hero button {
+    background-color: #99c50a;
+	color: #fff;
+	padding: 11px 40px;
+	border-radius: 15px;
+	display: block;
+	margin: 55px auto 100px;
+	border: none;
+}
+/*Home section ends*/
+
+
+/*HOW IT WORKS section starts*/
+.hero-two span {
+    margin: 35px;
+    display: block;
+}
+
+.psg {
+	text-align: center;
+}
+
+.hero-two img {
+    margin: 0 auto 50px;
+}
+
+.hero-two h2{
+	font-size: 31px;
+	text-align: center;
+}
+
+.hero-two p {
+	color: #bababa;
+	font-size: 19px;
+	text-align: center;
+}
+/*HOW IT WORKS section ends*/
+
+
+/*DISCOVER A PROJECT section starts*/
+
+.discover h5 {
+	padding: 45px 0px 35px;
+}
+
+.sec-one-btn {
+	padding: 10px 10px;
+    background-color: #26a6d1;
+    display: block;
+    margin: 30px 0px;
+    font-size: 25px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+
+.sec-two-btn {
+	padding: 10px 10px;
+    background-color: #add136;
+    display: block;
+    margin: 30px 0px;
+    font-size: 25px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+
+.sec-one {
+	background-color: #e2f8ff;
+}
+
+.sec-two {
+	background-color: #f5f9eb;
+}
+/*DISCOVER A PROJECT section ends*/
+
+
+/*BLOG section starts*/
+.blog h5 {
+	padding: 0px 0px 30px;
+	font-size: 53px;
+}
+
+.blog p {
+	margin: 50px 0px;
+}
+
+.blog-btn {
+    padding: 10px 10px;
+    border: 1px solid #161616;
+    position: absolute;
+    top: 15px;
+    left: 100px;
+    border-radius: 10px;
+}
+/*BLOG section ends*/
+
+/*Footer section starts*/
+footer {
+
+}
+
+footer p {
+	text-align: center;
+	color: #767676;
+	padding: 30px;
+}
+/*Footer section ends*/
+
+
+/*Media Query starts*/
+@media (max-width: 500px;) {
+	nav img {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.nav-item {
+	margin: 10px 0px;
+	}
+
+}
